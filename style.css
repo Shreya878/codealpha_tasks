@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.flashcard {
+  margin-top: 20px;
+  background: #e3f2fd;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.controls button, #submit-answer, #speak-btn {
+  margin: 10px 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
